@@ -23,6 +23,7 @@ after_success:
 
 deploy:
    edge: true
+   artifact: Dockerrun.aws.json
    provider: elasticbeanstalk
    region: "us-east-1"
    app: "multi-docker4"
